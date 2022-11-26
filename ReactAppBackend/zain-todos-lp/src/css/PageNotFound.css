@@ -1,0 +1,681 @@
+.PageNotFound {
+  margin: 100px auto;
+  padding: 45px;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 140px 60px #000000;
+  background: #0000005c;
+
+}
+
+/* change the size of Stars */
+@media only screen and (max-width: 1580px) {
+  .sjimg1 {
+    width: 195px;
+    left: 400px;
+    top: 190px;
+    /* animation:none; */
+    animation-name: sjimg1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg1 {
+    0% {
+      left: 400px;
+      top: 190px;
+    }
+
+    10% {
+      left: 402px;
+      top: 190px;
+    }
+
+    25% {
+      left: 405px;
+      top: 190px;
+    }
+
+    30% {
+      left: 402px;
+      top: 193px;
+    }
+
+    50% {
+      left: 400px;
+      top: 195px;
+    }
+
+    60% {
+      left: 400px;
+      top: 191px;
+    }
+
+    75% {
+      left: 400px;
+      top: 187px;
+    }
+
+    80% {
+      left: 400px;
+      top: 187px;
+    }
+
+    100% {
+      left: 400px;
+      top: 190px;
+    }
+  }
+
+  .sjimg2 {
+    width: 180px;
+    left: 460px;
+    top: 490px;
+    /* animation:none; */
+
+    animation-name: sjimg2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg2 {
+    0% {
+      left: 460px;
+      top: 490px;
+    }
+
+    25% {
+      left: 463px;
+      top: 490px;
+    }
+
+    50% {
+      left: 463px;
+      top: 493px;
+    }
+
+    75% {
+      left: 460px;
+      top: 493px;
+    }
+
+    100% {
+      left: 460px;
+      top: 490px;
+    }
+  }
+
+  .sjimg3 {
+    width: 550px;
+    left: 880px;
+    top: 250px;
+    /* animation:none; */
+
+    animation-name: sjimg3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg3 {
+    from {
+      top: 250px;
+    }
+
+    to {
+      top: 256px;
+    }
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 1420px) {
+
+  .sjimg1 {
+    width: 195px;
+    left: 350px;
+    top: 180px;
+    /* animation:none; */
+    animation-name: sjimg1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg1 {
+    0% {
+      left: 350px;
+      top: 180px;
+    }
+
+    10% {
+      left: 352px;
+      top: 180px;
+    }
+
+    25% {
+      left: 355px;
+      top: 180px;
+    }
+
+    30% {
+      left: 352px;
+      top: 183px;
+    }
+
+    50% {
+      left: 350px;
+      top: 185px;
+    }
+
+    60% {
+      left: 350px;
+      top: 181px;
+    }
+
+    75% {
+      left: 350px;
+      top: 177px;
+    }
+
+    80% {
+      left: 350px;
+      top: 177px;
+    }
+
+    100% {
+      left: 350px;
+      top: 180px;
+    }
+  }
+
+  .sjimg2 {
+    width: 180px;
+    left: 410px;
+    top: 490px;
+    /* animation:none; */
+
+    animation-name: sjimg2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg2 {
+    0% {
+      left: 410px;
+      top: 490px;
+    }
+
+    25% {
+      left: 413px;
+      top: 490px;
+    }
+
+    50% {
+      left: 413px;
+      top: 493px;
+    }
+
+    75% {
+      left: 410px;
+      top: 493px;
+    }
+
+    100% {
+      left: 410px;
+      top: 490px;
+    }
+  }
+
+  .sjimg3 {
+    width: 500px;
+    left: 800px;
+    top: 250px;
+    /* animation:none; */
+
+    animation-name: sjimg3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg3 {
+    from {
+      top: 250px;
+    }
+
+    to {
+      top: 256px;
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .sjimg1 {
+    width: 195px;
+    left: 330px;
+    top: 180px;
+    /* animation:none; */
+    animation-name: sjimg1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg1 {
+    0% {
+      left: 330px;
+      top: 180px;
+    }
+
+    10% {
+      left: 332px;
+      top: 180px;
+    }
+
+    25% {
+      left: 335px;
+      top: 180px;
+    }
+
+    30% {
+      left: 332px;
+      top: 183px;
+    }
+
+    50% {
+      left: 330px;
+      top: 185px;
+    }
+
+    60% {
+      left: 330px;
+      top: 181px;
+    }
+
+    75% {
+      left: 330px;
+      top: 177px;
+    }
+
+    80% {
+      left: 330px;
+      top: 177px;
+    }
+
+    100% {
+      left: 330px;
+      top: 180px;
+    }
+  }
+
+  .sjimg2 {
+    width: 180px;
+    left: 390px;
+    top: 490px;
+    /* animation:none; */
+
+    animation-name: sjimg2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg2 {
+    0% {
+      left: 390px;
+      top: 490px;
+    }
+
+    25% {
+      left: 393px;
+      top: 490px;
+    }
+
+    50% {
+      left: 393px;
+      top: 493px;
+    }
+
+    75% {
+      left: 390px;
+      top: 493px;
+    }
+
+    100% {
+      left: 390px;
+      top: 490px;
+    }
+  }
+
+  .sjimg3 {
+    width: 480px;
+    left: 700px;
+    top: 280px;
+    /* animation:none; */
+
+    animation-name: sjimg3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg3 {
+    from {
+      top: 280px;
+    }
+
+    to {
+      top: 286px;
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 1300px) and (max-height: 780px) {
+  .navbar {
+    padding: 0;
+    margin-bottom: 5px;
+  }
+
+  .PageNotFound {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 700px;
+  }
+
+
+
+
+  .sjimg1 {
+    width: 150px;
+    left: 310px;
+    top: 100px;
+    /* animation:none; */
+    animation-name: sjimg1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg1 {
+    0% {
+      left: 310px;
+      top: 100px;
+    }
+
+    10% {
+      left: 312px;
+      top: 100px;
+    }
+
+    25% {
+      left: 315px;
+      top: 100px;
+    }
+
+    30% {
+      left: 312px;
+      top: 103px;
+    }
+
+    50% {
+      left: 310px;
+      top: 105px;
+    }
+
+    60% {
+      left: 310px;
+      top: 101px;
+    }
+
+    75% {
+      left: 310px;
+      top: 107px;
+    }
+
+    80% {
+      left: 310px;
+      top: 107px;
+    }
+
+    100% {
+      left: 310px;
+      top: 100px;
+    }
+  }
+
+  .sjimg2 {
+    width: 130px;
+    left: 375px;
+    top: 330px;
+    /* animation:none; */
+
+    animation-name: sjimg2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg2 {
+    0% {
+      left: 375px;
+      top: 330px;
+    }
+
+    25% {
+      left: 378px;
+      top: 330px;
+    }
+
+    50% {
+      left: 378px;
+      top: 333px;
+    }
+
+    75% {
+      left: 375px;
+      top: 333px;
+    }
+
+    100% {
+      left: 375px;
+      top: 330px;
+    }
+  }
+
+  .sjimg3 {
+    width: 420px;
+    left: 700px;
+    top: 100px;
+
+    animation-name: sjimg3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg3 {
+    from {
+      top: 100px;
+    }
+
+    to {
+      top: 106px;
+    }
+  }
+
+
+}
+
+
+/* all of PageNotFound css for under 1090px */
+@media only screen and (max-width: 1090px) {
+
+  .PageNotFound {
+    margin: 100px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 140px 60px #000000;
+    background: #00000028;
+
+  }
+
+  .sjimg1 {
+    width: 5%;
+    left: 0%;
+    top: 0%;
+    /* animation:none; */
+    animation-name: sjimg1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg1 {
+    0% {
+      left: 60%;
+      top: 60%;
+    }
+
+    25% {
+      left: 30%;
+      top: 30%;
+    }
+
+    50% {
+      left: 0%;
+      top: 30%;
+    }
+
+    75% {
+      left: 10%;
+      top: 0%;
+    }
+
+    100% {
+      left: 60%;
+      top: 60%;
+    }
+  }
+
+  .sjimg2 {
+    width: 10%;
+    left: 27%;
+    top: 58%;
+    /* animation:none; */
+
+    animation-name: sjimg2;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg2 {
+    0% {
+      left: 0%;
+      top: 0%;
+    }
+
+    25% {
+      left: 50%;
+      top: 60%;
+    }
+
+    50% {
+      left: 60%;
+      top: 0%;
+    }
+
+    75% {
+      right: 0%;
+      top: 60%;
+    }
+
+    100% {
+      left: 0%;
+      top: 0%;
+    }
+  }
+
+  .sjimg3 {
+    width: 15%;
+    left: 60%;
+    top: 62%;
+    /* animation:none; */
+
+    animation-name: sjimg3;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  }
+
+  @keyframes sjimg3 {
+    0% {
+      left: 50%;
+      top: 50%;
+    }
+
+    25% {
+      left: 25%;
+      top: 0%;
+    }
+
+    50% {
+      left: 0%;
+      top: 45%;
+    }
+
+    75% {
+      left: 25%;
+      top: 25%;
+    }
+
+    100% {
+      left: 50%;
+      top: 50%;
+    }
+  }
+
+
+}

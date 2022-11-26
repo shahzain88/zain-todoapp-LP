@@ -7,6 +7,8 @@ import Navbar from "./component/Navbar.js";
 import Footer from './component/Footer.js';
 import About from './component/About.js';
 import Download from './component/Download.js';
+import PageNotFound from './component/PageNotFound.js';
+
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -25,12 +27,22 @@ function App() {
         <div className='content'>
           <Switch>
 
+            <Route exact path='/'>
+              <About />
+            </Route>
+
+            <Route path='/about'>
+              <About />
+            </Route>
+
+
             <Route path='/download'>
               <Download />
             </Route>
 
-            <Route path='/'>
-              <About />
+
+            <Route path='/*'>
+              <PageNotFound />
             </Route>
 
 
