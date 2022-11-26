@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  color:white;
+  background:#00000000;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  cursor:pointer;
+  overflow:none;
+
+}
+.bg-img{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-10;
+}
+
+.sjimg{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-10;
+}
+.sjimg1{
+  width:200px;
+  left:450px;
+  top:190px;
+  animation-name:sjimg1;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes sjimg1 {
+  0%   {left:450px; top:190px;}
+  10%   {left:452px; top:190px;}
+  25%  {left:455px; top:190px;}
+  30%  {left:452px; top:193px;}
+  50%  {left:450px; top:195px;}
+  60%  {left:450px; top:191px;}
+  75%  {left:450px; top:187px;}
+  80%  {left:450px; top:187px;}
+  100% {left:450px; top:190px;}
+}
+
+.sjimg2{
+  width:180px;
+  left:530px;
+  top:490px;
+  animation-name:sjimg2;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes sjimg2 {
+  0%   {left:530px; top:490px;}
+  25%  {left:533px; top:490px;}
+  50%  {left:533px; top:493px;}
+  75%  {left:530px; top:493px;}
+  100% {left:530px; top:490px;}
+}
+
+.sjimg3{
+  width:590px;
+  left:975px;
+  top:200px;
+  animation-name:sjimg3;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes sjimg3 {
+  0%   {top:200px;}
+  10%   {top:201px;}
+  25%  {top:202px;}
+  35%  {top:203px;}
+  50%  {top:204px;}
+  60%  {top:203px;}
+  75%  {top:202px;}
+  85%  { top:201px;}
+  100% {top:200px;}
+}
+
+
